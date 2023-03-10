@@ -1,1 +1,2 @@
 # asd2
+Program ini dapat dijalankan oleh user,dalam menu ini terdapat metode,yaitu linear_search.pada menu ini user diminta untuk menginput nama yang ingin ditampilkan setelah itu program akan menampilkan nama yang sudah ditulis, misal dalam sebuah var=[“Arsel”,”Avivah”,”daiva”[“wahyu”,”wibi”]],jika user menginput nama “Arsel” maka akan muncul tampilan index tempat variable itu berada,yaitu index 0,jika menginput nama”wahyu” maka akan muncul index 3 kolom ke 0.jika user memasukan nama selain yang berada di dalam list/var maka akan tampil tulisan tidak sesuai.
