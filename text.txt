@@ -1,0 +1,30 @@
+def linear_search(var,x):
+    for i in range(len(var)):
+        if type(var[i]) == list:
+            data = linear_search(var[i],x)
+            if data == -1:
+                return -1
+            else:
+                print(x, "ditemukan di indeks" ,i, "kolom" ,data,)
+                exit()
+        elif var[i] == x:
+            return i
+    return -1
+
+def Linesearch(x,n):
+    dicari = linear_search(x,n)
+    if dicari == -1:
+        print({n}," tidak sesuai")
+    else:
+        print({n}, "Ditemukan Di Index", {dicari})
+        linear_search(var,nama)
+
+var = ["Arsel","Avivah","Daiva",["Wahyu","Wibi"]]
+
+z= len(var)
+while True:
+    nama = input("Masukan nama: ")
+    Linesearch(var,nama)
+    break
+  
+
